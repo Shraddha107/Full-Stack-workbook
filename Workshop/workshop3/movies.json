@@ -1,0 +1,28 @@
+{
+  "movies": [
+    {
+      "id": "2",
+      "title": "Pulp Fiction",
+      "genre": "Crime",
+      "year": 1994
+    },
+    {
+      "id": "3",
+      "title": "Dune",
+      "genre": "Sci-Fi",
+      "year": 2021
+    },
+    {
+      "id": "4",
+      "title": "Stranger Things",
+      "year": 2025,
+      "genre": "horror"
+    },
+    {
+      "id": "45e1",
+      "title": "Train to Busan",
+      "genre": "thriller",
+      "year": 2017
+    }
+  ]
+}
