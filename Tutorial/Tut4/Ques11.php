@@ -15,5 +15,6 @@ foreach ($users as $u) {
     }
 }
 
-echo $found ? "Email already exists" : "Email available";
+echo $found ? "Email already exists" : "Email not available";
+
 ?>
