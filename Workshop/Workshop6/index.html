@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Add a New Book</h2>
+    <form action='add_book.php' method='post'>
+        Book Title: <input type='text' name='title' required><br>
+        Author: <input type='text' name='author' required><br>
+        Category: <input type='text' name='category' required><br>
+        Quantity: <input type='number' name='quantity' required><br><br>
+        <button type="submit">Add Book</button>
+    </form>
+    
+    <button><a href="view_books.php">View All Books</a></button><br>
+    <button><a href="search.php">Search Books</a></button><br>
+    <button><a href="delete_book.php">Delete Book</a></button>
+    
+</body>
+</html>
